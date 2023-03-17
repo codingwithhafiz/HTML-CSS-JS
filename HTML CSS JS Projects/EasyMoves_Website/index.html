@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy My Move</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.rcbrand.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/darkly/bootstrap.min.css"> -->
+</head>
+<body>
+    <!-- Main -->
+    <section id="main">
+        
+    <!-- navbar -->
+    <nav class="navbar" id="navbar">
+
+        <!-- logo -->
+        <div class="logo">
+            <img src="Assets/logo.png" alt="">
+        </div>
+        <!-- NAVIGATION MENU -->
+
+        <ul class="nav-links">
+            <!-- using checkbox -->
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li class="book"><a href="https://empam.setmore.com/">Book your Move</a></li>
+
+                <div>
+                    <button onclick="location.href='https://empam.setmore.com/'" type="button">Book Your Move</button>
+
+                </div>
+
+            </div>
+        </ul>
+
+    </nav>
+
+    <div class="main-banner">
+        <div class="banner-text">
+            <div>
+                <h2 class="h2-1st">Easy My Move</h2>
+                <p>Lets Move Together.</p>
+                <h2 class="h2-2nd">Stress-Free Relocation.</h2>
+                <p>Across the World.</p>
+
+            </div>
+         
+        </div>
+        <div class="banner-form">
+            <div class="enquiry-form" id="form-enquiry">
+                <h2>Make an Enquiry</h2>
+                <form action="">
+                    <input type="text" placeholder="Name*" required><br>
+                    <input type="number" placeholder="Phone*" required><br>
+                    <input type="email" placeholder="Email*" required><br>
+                    <select name="cars" id="cars">
+                        <option value="Select Required Service*" selected>Select Required Service*</option>
+                        <option value="Domestic Relocation">Domestic Relocation</option>
+                        <option value="International Relocation">International Relocation</option>
+                        <option value="Commercial brRelocation">Commercial Relocation</option>
+                        <option value="Warehouse Storage">Warehouse Storage</option>
+                        <option value="Vehicle Transportation">Vehicle Transportation</option>
+
+                      </select><br><br>
+                      <label for="cityfrom">Moving From</label><br>
+                      <input class="city" id="cityfrom" type="text" placeholder="City*" required><br><br>
+                      <label for="cityto">Moving To</label><br>
+                      <input class="city" type="text" placeholder="City*" id="cityto" required><br>
+                      <input type="submit" value="Send Message">
+                </form>
+                
+            </div>
+            <div class="tel">
+                <h2>Contact Us</h2>
+                <p><a href="tel:+91-9997726444">+91-9997726444</a></p>
+                <p><a href="tel:+91-9653458481">+91-9653458481</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- about Section -->
+
+    <section id="about">
+        <div class="about-outer">
+            <div class="about-text">
+                <div>
+                    <h2>About Us</h2>
+                    <h3>With Easy My Move, you get a peace of mind when you move your home.</h3>
+                    <p>As one of the leading movers in India, we offer a wide range of tailor made moving and relocation services that will provide you with systematic, safe and smooth relocation. You will feel our focus on personalized service and experience “that special personal touch” which distinguishes us amongst the best movers worldwide. <br><br>As one of the leading movers in India, we offer a wide range of tailor made moving and relocation services that will provide you with systematic, safe and smooth relocation. You will feel our focus on personalized service and experience “that special personal touch” which distinguishes us amongst the best movers worldwide.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="Assets/pexels-karolina-grabowska-4464817-1-1-683x1024.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--  Free Estimate Section-->
+
+    <section id="estimate">
+        <div class="estimate-outer">
+        <div class="estimate-inner">
+            <h2>Keep Calm And Let Us Handle </h2> <h2> The Moving For You.</h2>
+            <p>
+                Let us take the stress out of your move.
+                <br><br><br>
+                Your satisfaction is always our priority.</p>
+                <button onclick="location.href='#form-enquiry'">Get Free Estimate</button>
+        </div>
+    </div>
+    </section>
+
+    <!-- services Section -->
+
+    <section id="services">
+        <h2 class="ser-h">Our Services</h2>
+        <div class="services-outer">
+            
+            <div class="service-card card1">
+                <h2><a href="">Domestic Relocation</a></h2>
+                <p>Easy My Move has devised convenient and brilliant ways to move its customers' households or vehicles anywhere within the territory.</p>
+            </div>
+            <div class="service-card card2">
+                <h2><a href="">International relocation</a></h2>
+                <p>We know, an International moving can be stressful for the family but it dosen't have to be if you move with Easy My Move.</p>
+            </div>
+            <div class="service-card card3">
+                <h2><a href="">Commercial Relocation</a> </h2>
+                <p>We have the expertise and resources for implementing effective business relocation solutions and move your office without disruption. We ensure that the downtime is minimum and your business remains uninterrupted.</p>
+            </div>
+            <div class="service-card card4">
+                <h2><a href="https://easymystorage.com/">Warehouse & Storage</a></h2>
+                <p>Easy My Move has become one of the most trusted names in providing the most reliable Warehousing Services.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- work -->
+
+    <section id="work">
+        <div class="work-outer">
+            <div class="work-box">
+                <h2>6+</h2>
+                <p>Years of Experience</p>
+            </div>
+            <div class="work-box">
+                <h2>80+</h2>
+                <p>People in Team</p>
+            </div>
+            <div class="work-box">
+                <h2>5,989+</h2>
+                <p>Happy customers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section id="testimonial">
+        <h2 class="ser-h">What Our Clients Say</h2>
+        <div class="testi-outer">
+            <div class="testi-card">
+                <!-- <div class="t-image">
+                    <img src="Assets/WhatsApp-Image-2020-08-07-at-10.33.18-AM-otlo77eg2i912ne24holduets8t3qyklk9kgrjc5as.jpeg" alt="">
+                </div> -->
+                <div class="t-text">
+                    <p>Thank you for your service, it was very less time consuming and budget friendly. Would love to use your service again! Thank you</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <h5>Abhinav Chandel</h5>
+                    <h5>Delhi</h5>
+                </div>
+            </div>
+            <div class="testi-card t-middle">
+                <!-- <div class="t-image">
+                    <img src="Assets/Owner.jpg" alt="">
+                </div> -->
+                <div class="t-text">
+                    <p>Thank you so much Easy My Move for making my packing and moving hassle free. All work was done to utmost perfection.</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h5>Varsha</h5>
+                    <h5>Mumbai</h5>
+                </div>
+            </div>
+            <div class="testi-card">
+                <!-- <div class="t-image">
+                    <img src="Assets/roofers-01.jpg" alt="">
+                </div> -->
+                <div class="t-text">
+                    <p>Easy My Move were a great support. A great team well managed by professionals, performed quite satisfactorily on all parameters. My relocation from Delhi to Lucknow was butter smooth. Thank you.</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h5>Aleena</h5>
+                    <h5>Delhi</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients section -->
+
+    <section id="clients">
+        <h2 class="ser-h" style="padding-bottom: 30px;">Our Amazing Clients</h2>
+        <div class="container">
+            <div class="row">
+                <ul id="rcbrand2">
+                    <li><img src="Assets/Hyundai-logo-removebg-preview.png" /></li>
+                    <li><img src="Assets/2560px-Honda.svg-removebg-preview.png" /></li>
+                    <li><img src="Assets/manforce-removebg-preview.png" /></li>
+                    <li><img src="Assets/canara-removebg-preview.png" /></li>
+                    <li><img src="Assets/axis_bank-removebg-preview.png" /></li>
+                    <li><img src="Assets/hdfc-removebg-preview.png" /></li>
+                </ul>
+    
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="contact-outer">
+            <div class="contact-card">
+                <div>
+                    <h2>Head Office</h2>
+                    <p>Noida: <br>
+                        Aadarsh Complex (Opp. Police Fire Station) Harola Sector-5, Noida-201301 (U.P) <br><br>
+                        
+                        Mumbai: <br>
+                        Pancheel Garden, Mahaveer Nagar, Kandiwali West, Mumbai-400047 (M.H.)</p>
+                </div>
+                <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+
+            </div>
+            <div class="contact-card">
+                <div>
+                    <h2>Contact Us At</h2>
+                    
+                    <p><a href="tel:+91-9997726444">+91-9997726444</a></p>
+                <p><a href="tel:+91-9653458481">+91-9653458481</a></p>
+                </div>
+                <i class="fa fa-phone icon" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card">
+                <div>
+                    <h2>Mail Us At</h2>
+                    <p>Easymymove@outlook.com</p>
+                </div>
+                <i class="fa fa-envelope icon" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div>
+            <h2>Ready To Get Moving? Get Your Free Quote</h2>
+            <p>if you have any query regarding your shifting, feel free to call our customer care executive anytime.</p>
+            <p class="callus">Call Us : <a href="tel:+91-9997726444">+91-9997726444</a></p>
+        </div>
+    </footer>
+   
+    <!-- bottom bar -->
+    <section>
+        <div class="navbar-bottom">
+            <div class="nav-bottom-outer">
+
+            
+            <div>
+                <i class="fa fa-phone icon-nav" aria-hidden="true"></i>
+                <p><a href="tel:+91-9997726444">Call Now</a></p>
+
+            </div>
+            <div>
+                <i class="fa fa-whatsapp icon-nav" aria-hidden="true"></i>
+                <p><a href="https://api.whatsapp.com/send/?phone=919997726444&text&type=phone_number&app_absent=0">Whatsapp</a></p>
+            </div>
+            <div>
+                <i class="fa fa-clipboard icon-nav" aria-hidden="true"></i>
+                <p><a href="#form-enquiry">Get Quote</a></p>
+            </div>
+        </div>
+     </div>
+    </section>
+
+
+    <script type="text/javascript">
+
+        $(window).load(function() {
+            $("#rcbrand2").rcbrand({
+                visibleItems: 5,
+                itemsToScroll: 1,
+                autoPlay: {
+                    enable: true,
+                    interval: 3000,
+                    pauseOnHover: true
+                }
+            });
+        });
+        </script>
+</body>
+</html>

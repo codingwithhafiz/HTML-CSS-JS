@@ -1,0 +1,467 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ebook-outer
+{
+    width: 100%;
+    display: flex;
+    min-height: max-content;
+    justify-content: center;
+    padding: 30px;
+}
+
+.book-img
+{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-img img
+{
+ width: 300px; 
+ height: 280px; 
+
+}
+
+.book-detail
+{
+    width: 500px;
+}
+
+.book-detail h2
+{
+    padding-bottom: 10px;
+}
+.book-detail p
+{
+    padding: 5px 0px;
+}
+
+.book-detail button
+{
+    margin-top: 15px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.book-detail button:hover
+{
+    background-color: #4a934a;
+
+}
+
+.recipe-outer
+{
+    width: 100%;
+    display: flex;
+    min-height: max-content;
+    justify-content: center;
+    padding: 30px;
+}
+
+.recipe-detail
+{
+    width: 600px;
+    padding: 0px 30px;
+
+
+}
+
+.recipe-img
+{
+    width: 500px;
+    display: flex;
+
+}
+
+.recipe-detail h2
+{
+    color: #47BAC3;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.recipe-detail p
+{
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.recipe-detail ul
+{
+    padding: 5px 30px;
+}
+
+.recipe-detail li
+{
+    padding-top: 5px;
+}
+
+
+.recipe-img img
+{
+    width: 100%;
+}
+
+.download-outer
+{
+    width: 100%;
+    display: flex;
+    min-height: max-content;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.download-detail
+{
+    width: 700px;
+    min-height: 146px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 12px;
+}
+
+.download-detail p
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.add-to-cart
+{
+    width: 350px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.add-to-cart p
+{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* section {
+    max-width: 25rem;
+    margin-top: 4rem;
+  }
+   */
+
+   .features-main
+   {
+    margin: 50px 0px;
+   }
+
+   .features
+   {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+  .feature {
+    position: relative;
+    max-width: 21rem;
+    height: 20rem;
+    margin: 2rem;
+    padding: 2em;
+    border-radius: 0.75em;
+    box-shadow: 5px 5px 20px rgba(0 0 0/0.15);
+    text-align: left;
+    transition: transform 200ms ease-in;
+  }
+ 
+  .feature:hover {
+    transform: scale(1.03);
+  }
+  
+  .feature__desc {
+    height: 150px;
+    margin-top: 0.5em;
+    line-height: 1.5;
+  }
+  
+  .feature__img {
+    float: right;
+  }
+  
+  /* separate styling */
+  
+  .section__title {
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 10px;
+
+  }
+  
+  .section__title span {
+    font-weight: 700;
+    color: #47BAC3;
+  }
+  
+  .section__desc {
+    width: 100%;
+    margin: 1rem auto 3rem;
+
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px;
+
+  }
+  
+  .feature-one {
+    border-top: 5px solid cyan;
+  }
+  
+  .feature-two {
+    border-top: 5px solid red;
+  }
+  
+  .feature-three {
+    border-top: 5px solid orange;
+  }
+  
+  .feature-four {
+    border-top: 5px solid blue;
+  }
+  
+
+
+
+.testimonials
+{
+    width: 100%;
+    padding: 30px;
+    min-height: max-content;
+    background-color: #F9F9F9;
+}
+
+.testi-title-desc
+{
+    
+    text-align: center;
+}
+
+.testi-title-desc h2
+{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.testi-title-desc h5
+{
+    color: rgb(167, 157, 157);
+    font-size: 16px;
+}
+
+
+.testi-title-desc p {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+
+}
+  
+.testi-title-desc p:before,
+.testi-title-desc p:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin: auto 10px;
+}
+
+
+
+.testi-outer
+{
+    margin-top: 100px;
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+
+.review-list {
+    padding: 36px 20px 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 60px;
+    width: 400px;
+    min-height: max-content;
+    /* flex: 0 0 33.333333%;
+    max-width: 33.333333%; */
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.review-list img {
+    top: -40px;
+    position: absolute;
+    vertical-align: middle;
+    border: 2px solid #fff;
+
+}
+
+.review-list h5
+{
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.review-list p {
+    margin-top: 30px;
+    font-weight: lighter;
+    line-height: 2;
+}
+
+
+@media(max-width:1000px)
+{
+    .ebook-outer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-img
+    {
+        width: 70%;
+    }
+    .book-detail
+    {
+        width: 70%;
+        margin-top: 20px;
+
+    }
+
+    .recipe-outer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe-detail
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .recipe-img
+    {
+        margin-top: 20px;
+
+        width: 100%;
+    }
+
+    .download-outer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-detail
+    {
+        width: 100%;
+    }
+    .add-to-cart
+    {
+        width: 100%;
+    }
+
+    .testi-title-desc p
+    {
+        width: 400px;
+    }
+
+    .testi-title-desc h2
+    {
+        font-size: 2rem;
+    }
+      
+   
+
+}
+
+@media(max-width:600px)
+{
+
+    .book-img
+    {
+        width: 100%;
+    }
+    .book-detail
+    {
+        
+        width: 100%;
+
+    }
+
+    .download-detail p
+    {
+        font-size: 16px;
+    }
+
+    .testi-title-desc p
+    {
+        width: 80%;
+    }
+
+    .review-list
+    {
+        width: 90%;
+        margin-left: 0;
+    }
+
+  
+}
+
+
+@media(max-width:400px)
+{
+    .feature__desc
+    {
+        min-height: 200px;
+    }
+    .feature
+    {
+        min-height: 25rem !important;
+    }
+}

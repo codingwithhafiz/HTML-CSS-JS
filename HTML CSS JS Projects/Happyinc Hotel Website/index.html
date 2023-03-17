@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel-1</title>
+
+    <link href="./Assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <!-- logo -->
+            <div class="logo">
+                <img class="logo-desk" src="Assets/img/logo Happy inn.png" alt="">
+                <img class="logo-mob" src="Assets/img/logo Happy inn (1).png" alt="">
+
+            </div>
+            <!-- NAVIGATION MENU -->
+
+            <ul class="nav-links">
+                <!-- using checkbox -->
+                <input type="checkbox" id="checkbox_toggle">
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+
+                    <li><a href="">Воронежская</a></li>
+                    <li><a href="">Софийская</a></li>
+                    <li><a href="">Альпийский</a></li>
+                    <li><a href="">Ресторан</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <br>
+                    <br>
+                    <div class="menu-btn">
+                        <button>Забронировать номер</button>
+                    </div>
+                </div>
+
+
+            </ul>
+
+            <div class="menu-right">
+                <p>ЗАБРОНИРОВАТЬ</p>
+            </div>
+
+        </nav>
+
+        <div class="header-content">
+            <img src="Assets/img/Group 37.png" alt="">
+            <h2>Сеть бутик-отелей в Санкт-Петербурге</h2>
+        </div>
+
+        <div class="header-widget">
+            <div class="hotelname">
+                <h3>Отель</h3>
+                <div class="location-img">
+                    <img src="Assets/img/Vector.png" alt="">
+                    <p>в каком отеле вы бы хотели остановиться?</p>
+
+                </div>
+                <div class="hotel-list">
+                    <h4>Happy Inn на Воронежской</h4>
+                    <h4>Happy Inn на Софийской</h4>
+                    <h4>Happy Inn на Альпийском</h4>
+                </div>
+            </div>
+            <div class="date">
+                <h3>Даты</h3>
+                <p class="date-picker">12 Авг 2022 - 13 Авг 2022</p>
+            </div>
+            <div class="guests">
+                <h3>Гости</h3>
+                <p>1 комната - 1 взрослый, 1 ребенок</p>
+                <div class="guests-detail">
+                    <h2>Количество гостей</h2>
+                    <div class="guests-counter">
+                        <h3 id="g-1">Номер 1</h3>
+                        <div class="counter-box">
+                            <div class="adults-counter">
+                                <h4>Взрослые</h4>
+                                <div>
+                                    <img id="plus" src="Assets/img/minus.png" alt="">
+                                    <span>2</span>
+                                    <img id="minus" src="Assets/img/plus.png" alt="">
+                                </div>
+                        
+                            </div>
+                            <div class="childern-counter">
+                                <h4>Дети до 13</h4>
+                                <div>
+                                    <img id="plus" src="Assets/img/minus.png" alt="">
+                                    <span>2</span>
+                                    <img id="minus" src="Assets/img/plus.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-num">
+                        <h3>Добавить еще один номер</h3>
+                        <a href=""><img src="Assets/img/add.png" alt=""></a> 
+                        
+                    </div>
+                    <button>Готово</button>
+                </div>
+            </div>
+            <div class="widget-btn">
+                <button>Найти номер</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-mobile-widget">
+        <div class="faq-outer" data-aos="fade-up">
+            <div class="accordion">
+
+                <div class="icon location-img">
+                    <img src="Assets/img/loc-black.png" alt="">
+                    <h3>Отель</h3>
+                </div>
+                <p>В каком отеле хотели бы остановиться?</p>
+
+                <img class="faq_f" src="Assets/img/drop.png" alt="">
+            </div>
+            <div class="panel">
+                <div class="hotel-list faq-ans">
+                    <h4>Happy Inn на Воронежской</h4>
+                    <h4>Happy Inn на Софийской</h4>
+                    <h4>Happy Inn на Альпийском</h4>
+                </div>
+            </div>
+
+            <div class="accordion">
+
+                <div class="icon location-img">
+                    <h3>Заезд</h3>
+                </div>
+                <p>12.09.2022</p>
+
+                <img class="faq_f" src="Assets/img/drop.png" alt="">
+            </div>
+            <div class="panel">
+
+            </div>
+
+            <div class="accordion">
+
+                <div class="icon location-img">
+                    <h3>Выезд</h3>
+                </div>
+                <p>13.09.2022</p>
+
+                <img class="faq_f" src="Assets/img/drop.png" alt="">
+            </div>
+            <div class="panel">
+                <p>
+                </p>
+            </div>
+
+            <div class="accordion">
+
+                <div class="icon location-img">
+                    <h3>Гости</h3>
+                </div>
+                <p>2 взрослых, 1 ребенок</p>
+
+                <img class="faq_f" src="Assets/img/drop.png" alt="">
+            </div>
+            <div class="panel">
+                <p>
+                    <div class="guests-detail faq-ans">
+                        <h2>Количество гостей</h2>
+                        <div class="guests-counter">
+                            <h3 id="g-1">Номер 1</h3>
+                            <div class="counter-box">
+                                <div class="adults-counter">
+                                    <h4>Взрослые</h4>
+                                    <div>
+                                        <img id="plus" src="Assets/img/minus.png" alt="">
+                                        <span>2</span>
+                                        <img id="minus" src="Assets/img/plus.png" alt="">
+                                    </div>
+                            
+                                </div>
+                                <div class="childern-counter">
+                                    <h4>Дети до 13</h4>
+                                    <div>
+                                        <img id="plus" src="Assets/img/minus.png" alt="">
+                                        <span>2</span>
+                                        <img id="minus" src="Assets/img/plus.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-num">
+                            <h3>Добавить еще один номер</h3>
+                            <a href=""><img src="Assets/img/add.png" alt=""></a> 
+                            
+                        </div>
+                        <button>Готово</button>
+                    </div>
+                </p>
+            </div>
+
+            <div class="btn2">
+                <button>Найти номер</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- main section -->
+
+    <section id="main">
+        <div class="description">
+            <h2>HAPPY INN</h2>
+            <p>Happy Inn — группа мини-отелей в самых удобных частях города Санкт-Петербурга. Бутик-отели хорошо
+                известны среди российских и иностранных туристов. Из них легко добраться на автобусе или метро до всех
+                главных достопримечательностей Санкт-Петербурга, а так же до любого ж/д вокзала и аэропорта «Пулково».
+                В шаговой доступности — популярные рестораны и бары, магазины, аптеки, банкоматы.</p>
+        </div>
+
+        <hr class="sep1">
+
+        <div class="hotel-container">
+            <div class="hotel-place">
+                <h2>3 отеля
+                    в Санкт-петербурге</h2>
+            </div>
+            <br><br>
+            <div class="hotel-details">
+
+                <div class="hotel-features">
+                    <h2>ВОРОНЕЖСКАЯ, 67, ЛИТ. А</h2>
+                    <div>
+                        <img src="Assets/img/car.png" alt="">
+                        <p>16 номеров</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/icons8-plane-50 1 (Traced).png" alt="">
+                        <p>30 минут до аэропорта Пулково</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/train.png" alt="">
+                        <p>5 минут до Московского
+                            ж/д вокзала</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/building.png" alt="">
+                        <p>15 минут до главных достопримечательностей</p>
+                    </div>
+                    <div class="arrow">
+                        <a href="">Подробнее об отеле</a>
+                        <!-- <img  src="Assets/img/arrow.png" alt=""> -->
+
+                    </div>
+
+                    <div class="btn2 hotel-btn">
+                        <button>Найти номер</button>
+                    </div>
+                </div>
+                <div class="hotel-image">
+                    <h2 class="hotel-mobile-heading">ВОРОНЕЖСКАЯ, 67, ЛИТ. А</h2>
+                    <img class="h-img" src="Assets/img/hotel1.png" alt="">
+                    <div class="img-control">
+                        <div>
+                            <a href=""> <img src="Assets/img/left-arrow.png" alt="">                        </a>
+
+                        </div>
+                        <div>
+                            <a href=""> <img src="Assets/img/right-arrow.png" alt="">
+                            </a>
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hotel-container hotel-2">
+            <div class="hotel-place">
+                <h2></h2>
+            </div>
+            <div class="hotel-details">
+
+                <div class="hotel-features">
+                    <h2>СОФИЙСКАЯ, 24</h2>
+                    <div>
+                        <img src="Assets/img/car.png" alt="">
+                        <p>14 номеров</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/icons8-plane-50 1 (Traced).png" alt="">
+                        <p>30 минут до аэропорта Пулково</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/train.png" alt="">
+                        <p>20 минут до Московского
+                            ж/д вокзала</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/building.png" alt="">
+                        <p>9 км до главных достопримечательностей</p>
+                    </div>
+                    <div class="arrow">
+                        <a href="">Подробнее об отеле</a>
+                        <!-- <img  src="Assets/img/arrow.png" alt=""> -->
+
+                    </div>
+
+                    <div class="btn2 hotel-btn">
+                        <button>Найти номер</button>
+                    </div>
+                </div>
+                <div class="hotel-image">
+                    <h2 class="hotel-mobile-heading">ВОРОНЕЖСКАЯ, 67, ЛИТ. А</h2>
+                    <img class="h-img" src="Assets/img/image 3.png" alt="">
+                    <div class="img-control">
+                        <div>
+                            <a href=""> <img src="Assets/img/left-arrow.png" alt="">                        </a>
+
+                        </div>
+                        <div>
+                            <a href=""> <img src="Assets/img/right-arrow.png" alt="">
+                            </a>
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="hotel-container ">
+            <div class="hotel-place">
+                <h2></h2>
+            </div>
+            <div class="hotel-details" style="border: none;">
+
+                <div class="hotel-features">
+                    <h2>АЛЬПИЙСКИЙ ПЕР, 30, К. 3</h2>
+                    <div>
+                        <img src="Assets/img/car.png" alt="">
+                        <p>12 номеров</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/icons8-plane-50 1 (Traced).png" alt="">
+                        <p>18 минут до аэропорта Пулково</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/train.png" alt="">
+                        <p>20 минут до Московского
+                            ж/д вокзала</p>
+                    </div>
+                    <div>
+                        <img src="Assets/img/building.png" alt="">
+                        <p>9 км до главных достопримечательностей</p>
+                    </div>
+                    <div class="arrow">
+                        <a href="">Подробнее об отеле</a>
+                        <!-- <img  src="Assets/img/arrow.png" alt=""> -->
+
+                    </div>
+
+                    <div class="btn2 hotel-btn">
+                        <button>Найти номер</button>
+                    </div>
+                </div>
+                <div class="hotel-image">
+                    <h2 class="hotel-mobile-heading">ВОРОНЕЖСКАЯ, 67, ЛИТ. А</h2>
+                    <img class="h-img" src="Assets/img/image 4.png" alt="">
+                    <div class="img-control">
+                        <div>
+                            <a href=""> <img src="Assets/img/left-arrow.png" alt="">                        </a>
+
+                        </div>
+                        <div>
+                            <a href=""> <img src="Assets/img/right-arrow.png" alt="">
+                            </a>
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="sep2">
+
+        <div class="description des-2">
+            <div>
+                <h2>Ресторан в отеле <br>
+                    на воронежской</h2>
+                <div class="arrow arr-2">
+                    <a href="">Подробнее об отеле</a>
+                </div>
+            </div>
+
+            <p>В бутик-отеле «Happy Inn» в центре Санкт-Петербурга на Воронежской, на 1 этаже находится банкетный зал
+                «Жак де Рик», вместимостью до 80 человек, который уже успел прославиться своими изысканными блюдами
+                русской и европейской кухни. Это именно то, что нужно для организации красивого свадебного торжества,
+                веселого застолья в честь дня рождения, корпоративного мероприятия или любого другого праздника. Мы рады
+                предоставить вам возможность забронировать помещение, заказать и снять ресторан бутик-отеля Happy Inn
+                на вечер выбранного дня.</p>
+        </div>
+        <div class="des-2-img">
+            <img src="Assets/img/unsplash_YYZU0Lo1uXE.png" alt="">
+        </div>
+        <div class="arrow arr-2-mob">
+            <a href="">Подробнее об отеле</a>
+        </div>
+        <hr class="sep3">
+
+        <div class="description des-3">
+            <div>
+                <h2>Дополнительные <br> возможности</h2>
+                <div class="arr-3">
+                    <a href="">отель на Воронежской</a>
+                </div>
+            </div>
+
+            <p>Вы всегда можете арендовать отель целиком чтобы провести ваше мероприятие в самом центре
+                Санкт-Петербурга. Для подробной информации и бронировании обращайтесь по телефону 8-(911)-833-00-00.</p>
+
+            <div class="arrow arr-4">
+                <ul>
+                    <li> <a style="border-bottom: 1px solid black;" href="">свадьбы</a>
+                    </li>
+                    <li><a href="">корпоративы</a></li>
+                    <li> <a href="">презентации, лекции</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="des-3-img">
+                <img src="Assets/img/Rectangle 44.png" alt="">
+            </div>
+
+        </div>
+
+        <hr class="sep4">
+
+        <div class="location">
+            <div>
+                <h2>выберите удобный отель</h2>
+                <div class="arrow arr-2">
+                    <a href="">Подробнее об отеле</a>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="btn2 hotel-btn">
+                <button>Забронировать отель</button>
+            </div>
+        </div>
+
+
+        <div class="footer">
+
+            <div class="footer-logo">
+                <p><img src="Assets/img/Group 41.png">
+                </p>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-links">
+                    <div>
+                        <a href="">Воронежская</a>
+                    </div>
+                    <div>
+                        <a href="">Софийская</a>
+                    </div>
+                    <div>
+                        <a href="">Альпийский</a>
+                    </div>
+                    <div>
+                        <a href="">РЕСТОРАН</a>
+                    </div>
+                    <div>
+                        <a href="">КОНТАКТЫ</a>
+                    </div>
+                </div>
+                <hr class="sep5">
+                <div class="footer-contact">
+                    <p><a href="">Единые контактные данные</a></p>
+                    <p><a href="">8-(911)-833-00-00</a></p>
+                    <p><a href="">happyinn.dir@gmail.com</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script>
+        var acc = document.getElementsByClassName('accordion');
+        var pann = document.getElementsByClassName('panel');
+
+        var i;
+        var len = acc.length;
+
+        for (i = 0; i < len; i++) {
+            acc[i].addEventListener('click', function () {
+
+                this.classList.toggle('a_active');
+                var panel = this.nextElementSibling;
+                panel.classList.toggle('p_active');
+
+            })
+        }
+    </script>
+</body>
+
+</html>

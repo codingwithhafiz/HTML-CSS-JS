@@ -1,0 +1,522 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;  
+
+}
+
+/* navbar styling */
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo
+{
+    width: 200px;
+}
+
+/* navbar menu */
+
+.nav-links
+{
+    margin-top: 30px;
+}
+.menu
+{
+    display: flex;
+    font-size: 18px;
+}
+
+.menu li:hover a
+{
+    font-weight: 600;
+    border-bottom: 3px solid #FFA800;;
+
+}
+
+/* .menu li:hover a::after
+{
+    content: "";
+    border-bottom: 3px solid #FFA800;;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+} */
+
+
+.menu li{
+    /* padding:  5px 14px; */
+    margin: 0px 20px;
+    list-style: none;
+}
+
+.menu a
+{
+    text-decoration: none;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #060606;
+
+}
+
+.lv 
+{
+    margin-left: 30px;
+}
+
+.lv a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.lv a:hover
+{
+    font-weight: bold;
+        border-bottom: 3px solid #FFA800;;
+
+}
+
+
+/* responsive navbar */
+
+input[type=checkbox]
+{
+    display: none;
+}
+.hamburger
+{
+    display: none;
+    font-size: 32px;
+}
+
+@media (max-width:992px)
+{
+    .navbar
+    {
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+    .menu
+    {
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-top: 20px;
+        text-align: center;
+        padding: 16px 0;
+        z-index: 1;
+        background-color: whitesmoke;
+        
+
+    }
+
+   .hamburger
+   {
+       display: block;
+   }
+   .hamburger:hover{
+       cursor: pointer;
+   }
+
+   input[type=checkbox]:checked ~ .menu
+   {
+       display: block;
+   }
+
+   .menu li
+   {
+       padding-top: 20px;
+   }
+   .lv
+   {
+    margin-top: 20px;
+    margin-left: 0px;
+   }
+
+
+
+}
+
+
+
+/* Main Section Started*/
+
+#main-container
+{
+    width: 100%;
+    min-height: max-content;
+    padding-top: 100px;
+}
+
+
+.main-heading
+{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+text-align: center;
+letter-spacing: 1px;
+color: #2F4858;
+}
+
+
+.main-content
+{
+    width: 606px;
+    margin: 70px auto;
+    
+}
+.main-content p
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #2F4858;
+}
+
+
+.main-banner
+{
+    height: 705px;
+    margin-top: 50px;
+    width: 100%;
+    background-image: url("Assets/images/Juris.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-text
+{
+    width: 800px;
+    margin: 150px auto;
+    transform: rotate(180deg);
+
+
+}
+.main-banner h2
+{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.ripped1
+{
+    width: 100%;
+}
+.ripped2
+{
+    width: 100%;
+
+}
+
+.top-layer
+{
+    width: 100%;
+    position: absolute;
+    top: -6px;
+}
+
+.bottom-layer
+{
+    width: 100%;
+    position: absolute;
+    bottom: -6px;
+}
+
+.bottom-effect
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 606px;
+    background: linear-gradient(180deg, rgba(47, 72, 88, 0.8) 18.63%, rgba(47, 72, 88, 0) 49.21%);
+    transform: rotate(-180deg);
+
+}
+
+
+/* main section ended */
+
+
+/* Testimonials section started*/
+
+
+#testimonials
+{
+    padding-top: 150px;
+    width: 100%;
+    min-height: 600px;
+
+}
+
+.testimonial
+{
+    margin: 0 auto;
+    width: 600px;
+    min-height: max-content;
+}
+
+
+
+
+.t-name
+{
+    font-family: 'Oswald';
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #2F4858;
+}
+
+.t-description
+{
+    padding-top: 10px;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #2F4858;
+}
+
+.t-review
+{
+    padding-top: 20px;
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #2F4858;
+}
+
+.controls
+{
+    margin-top: 30px;
+}
+.controls img
+{
+
+    margin-right:20px;
+    cursor: pointer;
+
+}
+/* Testimonials section ended*/
+
+
+
+/* footer section started */
+
+#footer
+{
+    width: 100%;
+    min-height: 400px;
+    background-color: #2F4858;
+    position: relative;
+}
+
+.footer-outer
+{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+}
+.footer
+{
+    width: 500px;
+    min-height: max-content;
+    padding: 30px;
+}
+
+.footer-logo
+{
+
+    text-align: center;
+  
+}
+
+.footer-logo img
+{
+    padding-bottom: 80px;
+}
+
+.footer-logo p
+{
+    font-family: 'Montserrat';
+    font-size: 14px;
+color: #FFFFFF;
+
+
+}
+
+.footer-links
+{
+    padding: 10px 30px;
+}
+
+.footer-links li a
+{
+    font-family: 'Montserrat';
+font-size: 18px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.footer-links li
+{
+    list-style: none;
+    padding-top: 25px;
+}
+
+.footer-society h2
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+color: #FFFFFF;
+padding-bottom: 15px;
+}
+
+.footer-society p
+{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+padding-top: 10px;
+}
+
+.footer-contacts
+{
+    text-align: right;
+}
+
+.footer-contacts h2
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+color: #FFFFFF;
+padding-bottom: 15px;
+}
+
+.footer-contacts p
+{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+padding-top: 10px;
+}
+
+.social-icons
+{
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.social-icons img
+{
+    margin-left: 20px;
+}
+
+/* footer section ended */
+
+@media(max-width:800px)
+{
+    .main-content 
+    {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .main-banner
+{
+    height: 500px;
+}
+    .banner-text
+{
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto;
+
+}
+.testimonial
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.footer
+{
+    width: 100%;
+}
+
+}
+
+
+
+
+@media(max-width:1250px)
+{
+    .logo
+    {
+        width: max-content;
+        margin-top: 30px;
+
+    }
+
+    .nav-links
+    {
+    }
+    .logo img
+    {
+        width: 120px;
+    }
+    .menu li a
+    {
+        font-size: 16px;
+    }
+
+    .menu li
+    {
+        margin: 0px 10px;
+    }
+
+    .footer-outer
+{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+}
