@@ -1,6 +1,6 @@
 # HTML CSS JS GitHub Portfolio
 
-Welcome to my GitHub portfolio! This is a collection of web development projects that showcase my skills and experience in creating dynamic and visually appealing websites using HTML, CSS, and JavaScript.
+Welcome to my GitHub portfolio! This is a collection of Frontend web development projects that showcase my skills and experience in creating dynamic and visually appealing websites using HTML, CSS, and JavaScript.
 
 ## Features
 
