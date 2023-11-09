@@ -11,8 +11,6 @@
 
 - A passionate Self-taught Front-end developer
 - Currently learning Web Development by Self
-- Personal website [link](http://codingwithhafiz.com/)
-- I’m currently open for an Intern or a new job opportunity, this is [my resume](https://drive.google.com/file/d/1ZC6Q8c0G1vHvKRCUrnVsbEriT__T6jMW/view)
 
 <br><br>
 
